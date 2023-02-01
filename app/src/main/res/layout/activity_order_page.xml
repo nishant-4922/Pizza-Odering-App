@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order_page"
+    android:background="@drawable/order_page_img"
+    android:backgroundTintMode="src_over"
+    android:backgroundTint="#aa000000">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#673AB7"
+        android:backgroundTintMode="screen"
+        android:fontFamily="@font/lobster_two_bold_italic"
+        android:shadowColor="#E35858"
+        android:text="PIZZA HUT"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/lora_italic"
+        android:text="Oder Page"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.005" />
+
+
+    <EditText
+        android:id="@+id/order_name"
+        android:layout_width="321dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableRight="@drawable/ic_baseline_account_circle_24"
+        android:ems="10"
+        android:fontFamily="@font/lora_italic"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:hint="Name"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <EditText
+        android:id="@+id/order_phone"
+        android:layout_width="321dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableRight="@drawable/ic_baseline_phone_24"
+        android:ems="10"
+        android:fontFamily="@font/lora_italic"
+        android:hint="Phone Number"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <EditText
+        android:id="@+id/order_address"
+        android:layout_width="321dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableRight="@drawable/ic_baseline_home_24"
+        android:ems="10"
+        android:fontFamily="@font/lora_italic"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <Button
+        android:id="@+id/buttonone"
+        android:layout_width="290dp"
+        android:layout_height="85dp"
+        android:background="@drawable/round_btn"
+        android:fontFamily="@font/lora_italic"
+        android:text="Order Now"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.885" />
+
+    <EditText
+        android:id="@+id/order_quantity"
+        android:layout_width="321dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/lora_italic"
+        android:hint="Quantity Of Pizza"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/buttonone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Project_2</string>
+    <string name="title_activity_veg_pizza">Veg_pizza</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="veg_description">Made up of fresh tomatoes, onions, arugula, kale, eggplants, bell peppers, spinach, zucchini, mushrooms and more.</string>
+    <string name="veg_cost">Cost - $34</string>
+    <string name="paneer_description">In Paneer tikka pizza we marinate the paneer cubes with onion, spices and yogurt. We then let it sit for a minimum of 1 hour and then spread it on a pizza base and bake the pizza. You should also use cubed red/green bell peppers [capsicum] here.</string>
+    <string name="paneer_cost">Cost - $40</string>
+    <string name="cheese_description">Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot</string>
+    <string name="cheese_cost">Cost - $50</string>
+    <string name="pizza_hut">PIZZA HUT</string>
+</resources>
